@@ -1,3 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-site-bg text-site-text font-mono;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-mono font-semibold;
+  }
+}
+
+@layer components {
+  .section {
+    @apply py-16 border-b border-site-accent/20;
+  }
+  
+  .section-title {
+    @apply text-2xl font-semibold mb-8 text-site-text;
+  }
+}
