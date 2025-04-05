@@ -37,7 +37,7 @@ const Layout = ({ children }) => {
         <section className="py-12">
           <div className="prose prose-sm max-w-none">
             <p className="text-lg leading-relaxed">
-              Hi, I'm Will. I lead the data infrastructure team at <strong>Ro</strong>, where I focus on building scalable systems 
+              Hi, I'm Will. I lead the data infrastructure team at <strong><a href="https://ro.co" className="text-site-accent hover:underline">Ro</a></strong>, where I focus on building scalable systems 
               that power our healthcare platform. Previously, I led the product data science team at <strong>BuzzFeed</strong> and was 
               a staff data scientist at <strong>InVision</strong>. I studied applied math 
               at <strong>Brown</strong>.
